@@ -1,7 +1,7 @@
-version: '2'
-services:
-  blockchain-demo:
-    build: .
-    image: blockchain-demo:latest
-    ports:
-      - "3000:3000"
+    version: '2'
+    services:
+      blockchain_demo:
+        build: .
+        image: blockchain_demo:latest
+        ports:
+          - "80:80"

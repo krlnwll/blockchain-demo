@@ -2,7 +2,7 @@ FROM       node:alpine
 
 MAINTAINER https://github.com/anders94/blockchain-demo
 
-EXPOSE     3000
+EXPOSE     80
 
 WORKDIR    /blockchain-demo 
 
