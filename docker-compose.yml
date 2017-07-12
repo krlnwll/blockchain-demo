@@ -4,4 +4,4 @@
         build: .
         image: blockchain_demo:latest
         ports:
-          - "3000:3000"
+          - "80:80"
